@@ -23,6 +23,7 @@ userRouter.post("/register",async(req,res)=>{
     } catch (error) {
         res.status(400).json({msg:error.message})
     }
+    
 })
 
 // #######  /users/login #######
