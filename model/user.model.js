@@ -7,6 +7,7 @@ const userSchema=Schema({
     password:String
 })
 
+// this is user model
 
 const UserModel=model("user",userSchema)
 
