@@ -8,5 +8,6 @@ const postSchema=Schema({
     username:String
 })
 
+// this is model
 const PostModel=model("Post",postSchema)
 module.exports={PostModel}
